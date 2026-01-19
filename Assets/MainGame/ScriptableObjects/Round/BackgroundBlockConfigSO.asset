@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4015095fd411063448ab2bf17bd626f8, type: 3}
+  m_Name: BackgroundBlockConfigSO
+  m_EditorClassIdentifier: Assembly-CSharp::ObstacleConfigSO
+  _floorPrefabArr:
+  - {fileID: 4007552567064095129, guid: 15ae465efb6667a4e990c6a9cb89bb2c, type: 3}
+  - {fileID: 4007552567064095129, guid: 9ebd4f87259483443b46fb26f7d453d0, type: 3}
+  - {fileID: 4007552567064095129, guid: ebb3b3bc39bb6af45a4854d8375da377, type: 3}
+  _borderPrefabArr:
+  - {fileID: 7677588120232658967, guid: 00f2018aee41c494eae3619eca1e22bb, type: 3}
+  _obstaclePrefabArr:
+  - {fileID: 8917604993860003866, guid: 6166f47eb3898f745bc4d708dd67f472, type: 3}
+  - {fileID: 3367426411621355245, guid: 7f4962362b97a3142a39a5e019a9fe6a, type: 3}
+  - {fileID: 2465842134939044521, guid: d87e6d2ea85536b41a771a0d27c67c40, type: 3}
+  - {fileID: 4410639986962791992, guid: 8510b760337ab1f4587affcf7c1670b6, type: 3}
+  - {fileID: 2120509950051183185, guid: 18a51a5affbe2104f885af74126d8de2, type: 3}

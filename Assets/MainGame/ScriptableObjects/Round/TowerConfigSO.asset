@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143fec498c5df5c459387ab7125b6a5c, type: 3}
+  m_Name: TowerConfigSO
+  m_EditorClassIdentifier: Assembly-CSharp::TowerConfigSO
+  _towerConfigArr:
+  - type: 1
+    levelConfigArr:
+    - level: 1
+      goldPrice: 20
+      towerPrefab: {fileID: 2056036286338497212, guid: e18d2303fe2b3704ca48afe3cc6465fd, type: 3}
+      bulletPrefab: {fileID: 3618847493532910681, guid: 1b775cdb6b519ef448a31149208e6eee, type: 3}
+      combatData:
+        range: 4
+        fireRate: 1
+        bulletSpeed: 8.25
+        damage: 25
+    - level: 2
+      goldPrice: 30
+      towerPrefab: {fileID: 4419328586202923277, guid: d0f19e0f9edd01145b2595d2df61dc29, type: 3}
+      bulletPrefab: {fileID: 3618847493532910681, guid: 1b775cdb6b519ef448a31149208e6eee, type: 3}
+      combatData:
+        range: 4
+        fireRate: 1.05
+        bulletSpeed: 8.25
+        damage: 29
+    - level: 3
+      goldPrice: 45
+      towerPrefab: {fileID: 5738538037734689112, guid: b0342d116451dc34081ba1f03894eb1d, type: 3}
+      bulletPrefab: {fileID: 3618847493532910681, guid: 1b775cdb6b519ef448a31149208e6eee, type: 3}
+      combatData:
+        range: 4.2
+        fireRate: 1.1
+        bulletSpeed: 8.25
+        damage: 34
+    - level: 4
+      goldPrice: 65
+      towerPrefab: {fileID: 1201389857723597790, guid: e0b1198397445414ab3e866f2e1d9cdd, type: 3}
+      bulletPrefab: {fileID: 3618847493532910681, guid: 1b775cdb6b519ef448a31149208e6eee, type: 3}
+      combatData:
+        range: 4.2
+        fireRate: 1.15
+        bulletSpeed: 8.25
+        damage: 39
+    - level: 5
+      goldPrice: 90
+      towerPrefab: {fileID: 3327054546995548546, guid: a8ad01cb9abb94a45a9fbd8231be02ed, type: 3}
+      bulletPrefab: {fileID: 3618847493532910681, guid: 1b775cdb6b519ef448a31149208e6eee, type: 3}
+      combatData:
+        range: 4.4
+        fireRate: 1.2
+        bulletSpeed: 8.25
+        damage: 45
+  - type: 2
+    levelConfigArr:
+    - level: 1
+      goldPrice: 18
+      towerPrefab: {fileID: 3749287721003512577, guid: 7b23e8c348f3eec479f81b86adfa4b3c, type: 3}
+      bulletPrefab: {fileID: 5406354967365835914, guid: a4148caafd63e9f409f2407a48d3be3c, type: 3}
+      combatData:
+        range: 3
+        fireRate: 0.5
+        bulletSpeed: 6
+        damage: 60
+    - level: 2
+      goldPrice: 28
+      towerPrefab: {fileID: 876284343606210373, guid: 8fde9b006bf285e4fb93d131eec0c36a, type: 3}
+      bulletPrefab: {fileID: 5406354967365835914, guid: a4148caafd63e9f409f2407a48d3be3c, type: 3}
+      combatData:
+        range: 3
+        fireRate: 0.55
+        bulletSpeed: 6
+        damage: 66
+    - level: 3
+      goldPrice: 45
+      towerPrefab: {fileID: 2714409761697657672, guid: 8eb9cc3ed7eba784985bf4115cd10cde, type: 3}
+      bulletPrefab: {fileID: 5406354967365835914, guid: a4148caafd63e9f409f2407a48d3be3c, type: 3}
+      combatData:
+        range: 3.2
+        fireRate: 0.55
+        bulletSpeed: 6
+        damage: 72
+    - level: 4
+      goldPrice: 70
+      towerPrefab: {fileID: 650046204515716799, guid: a4d53e7a7b06ac849bf8562c04d7ec5c, type: 3}
+      bulletPrefab: {fileID: 5406354967365835914, guid: a4148caafd63e9f409f2407a48d3be3c, type: 3}
+      combatData:
+        range: 3.2
+        fireRate: 0.6
+        bulletSpeed: 6
+        damage: 78
+    - level: 5
+      goldPrice: 100
+      towerPrefab: {fileID: 684897569696926736, guid: 446a629bc75970a4899060a966d3fb2e, type: 3}
+      bulletPrefab: {fileID: 5406354967365835914, guid: a4148caafd63e9f409f2407a48d3be3c, type: 3}
+      combatData:
+        range: 3.4
+        fireRate: 0.6
+        bulletSpeed: 6
+        damage: 85
+  - type: 3
+    levelConfigArr:
+    - level: 1
+      goldPrice: 35
+      towerPrefab: {fileID: 8019213892336035267, guid: 5ae25a7ae92db2640878219d80abe828, type: 3}
+      bulletPrefab: {fileID: 8742549327512041679, guid: fd7cda3611630da4c979a748974a7f5c, type: 3}
+      combatData:
+        range: 6
+        fireRate: 0.25
+        bulletSpeed: 6.5
+        damage: 65
+    - level: 2
+      goldPrice: 50
+      towerPrefab: {fileID: 8208100251907111550, guid: 95325d739ec2b5a4590b40730c748e43, type: 3}
+      bulletPrefab: {fileID: 8742549327512041679, guid: fd7cda3611630da4c979a748974a7f5c, type: 3}
+      combatData:
+        range: 6
+        fireRate: 0.27
+        bulletSpeed: 6.5
+        damage: 72
+    - level: 3
+      goldPrice: 70
+      towerPrefab: {fileID: 4228324331255659073, guid: 131536926995a5549afd242a7dc184a6, type: 3}
+      bulletPrefab: {fileID: 8742549327512041679, guid: fd7cda3611630da4c979a748974a7f5c, type: 3}
+      combatData:
+        range: 6.2
+        fireRate: 0.28
+        bulletSpeed: 6.5
+        damage: 80
+    - level: 4
+      goldPrice: 100
+      towerPrefab: {fileID: 439887059279411988, guid: ff5e6339d0277a546b0577622f3f86a1, type: 3}
+      bulletPrefab: {fileID: 8742549327512041679, guid: fd7cda3611630da4c979a748974a7f5c, type: 3}
+      combatData:
+        range: 6.2
+        fireRate: 0.3
+        bulletSpeed: 6.5
+        damage: 90
+    - level: 5
+      goldPrice: 130
+      towerPrefab: {fileID: 6737725490832932014, guid: bd39dd8074f663844b2908236822ae37, type: 3}
+      bulletPrefab: {fileID: 8742549327512041679, guid: fd7cda3611630da4c979a748974a7f5c, type: 3}
+      combatData:
+        range: 6.5
+        fireRate: 0.32
+        bulletSpeed: 6.5
+        damage: 100
+  - type: 4
+    levelConfigArr:
+    - level: 1
+      goldPrice: 20
+      towerPrefab: {fileID: 6909656170590185216, guid: 09adfce4e0e6d75428a9abd4792d91e4, type: 3}
+      bulletPrefab: {fileID: 6602508865977360043, guid: ec131123debb6174b99b92e780a90519, type: 3}
+      combatData:
+        range: 5
+        fireRate: 0.75
+        bulletSpeed: 3
+        damage: 18
+    - level: 2
+      goldPrice: 25
+      towerPrefab: {fileID: 3266543978955012573, guid: d64d9db942f67104cb043b3849c79736, type: 3}
+      bulletPrefab: {fileID: 6602508865977360043, guid: ec131123debb6174b99b92e780a90519, type: 3}
+      combatData:
+        range: 5
+        fireRate: 0.9
+        bulletSpeed: 3
+        damage: 23
+    - level: 3
+      goldPrice: 40
+      towerPrefab: {fileID: 4027219465822646071, guid: 9a10986131bb6254e91886010678beb5, type: 3}
+      bulletPrefab: {fileID: 6602508865977360043, guid: ec131123debb6174b99b92e780a90519, type: 3}
+      combatData:
+        range: 5.2
+        fireRate: 1
+        bulletSpeed: 3
+        damage: 26
+    - level: 4
+      goldPrice: 60
+      towerPrefab: {fileID: 4094883604519602284, guid: c46ca678975ac2849aac96779b5a5529, type: 3}
+      bulletPrefab: {fileID: 6602508865977360043, guid: ec131123debb6174b99b92e780a90519, type: 3}
+      combatData:
+        range: 5.2
+        fireRate: 1.1
+        bulletSpeed: 3
+        damage: 30
+    - level: 5
+      goldPrice: 80
+      towerPrefab: {fileID: 8210422282339070349, guid: ee972e95d679c0440ba9539a717c88c9, type: 3}
+      bulletPrefab: {fileID: 6602508865977360043, guid: ec131123debb6174b99b92e780a90519, type: 3}
+      combatData:
+        range: 5.5
+        fireRate: 1.25
+        bulletSpeed: 3
+        damage: 35
+  _refundRate: 0.3

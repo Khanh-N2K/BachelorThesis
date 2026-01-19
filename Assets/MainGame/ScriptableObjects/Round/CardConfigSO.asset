@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85451f33f80932740bdc3f850a9bf171, type: 3}
+  m_Name: CardConfigSO
+  m_EditorClassIdentifier: Assembly-CSharp::CardConfigSO
+  _configArr:
+  - name: Freeze
+    description: Freeze enemies for 3 seconds
+    icon: {fileID: 21300000, guid: afad19e5634648843baddef2eec4c1f5, type: 3}
+    buyPrice: 7
+    sellPrice: 3
+    targetTagArr: 04000000
+    dragEffectRadius: 3
+    _effectArr:
+    - rid: 2812920546288206017
+  - name: Burn
+    description: Continuously burns enemies in 5 seconds
+    icon: {fileID: 21300000, guid: 22507a93311c5984ba31f057836457ef, type: 3}
+    buyPrice: 3
+    sellPrice: 1
+    targetTagArr: 04000000
+    dragEffectRadius: 1.2
+    _effectArr:
+    - rid: 2812920546288206020
+  - name: Slow
+    description: Slow down enemies for 4 seconds
+    icon: {fileID: 21300000, guid: e15ab0bab1497274084858a6eaf7d330, type: 3}
+    buyPrice: 5
+    sellPrice: 2
+    targetTagArr: 04000000
+    dragEffectRadius: 2.2
+    _effectArr:
+    - rid: 2812920546288206021
+  - name: Instant Kill
+    description: Instant kill any enemy under 20% health
+    icon: {fileID: 21300000, guid: cbd04f967084f2040aaefb0d5b5fef2e, type: 3}
+    buyPrice: 5
+    sellPrice: 2
+    targetTagArr: 04000000
+    dragEffectRadius: 1.4
+    _effectArr:
+    - rid: 2812920546288206029
+  - name: Tower dame boost
+    description: Boost damage for tower in 6 seconds
+    icon: {fileID: 21300000, guid: da7207a40fba62848970b3f2b20513b3, type: 3}
+    buyPrice: 5
+    sellPrice: 2
+    targetTagArr: 05000000
+    dragEffectRadius: 1
+    _effectArr:
+    - rid: 6546202350703345725
+  - name: Tower fire rate boost
+    description: Boost fire rate for tower in 6 seconds
+    icon: {fileID: 21300000, guid: 16a12d8e92fa176499974ecede1e5987, type: 3}
+    buyPrice: 5
+    sellPrice: 2
+    targetTagArr: 05000000
+    dragEffectRadius: 1
+    _effectArr:
+    - rid: 6546202350703345726
+  references:
+    version: 2
+    RefIds:
+    - rid: 2812920546288206017
+      type: {class: FreezeEffectConfig, ns: , asm: Assembly-CSharp}
+      data:
+        duration: 3
+        triggerInterval: 0
+    - rid: 2812920546288206020
+      type: {class: DamageOverTimeEffectConfig, ns: , asm: Assembly-CSharp}
+      data:
+        duration: 5
+        triggerInterval: 1
+        dps: 15
+    - rid: 2812920546288206021
+      type: {class: SpeedModifyEffectConfig, ns: , asm: Assembly-CSharp}
+      data:
+        duration: 4
+        triggerInterval: 0
+        increaseRateNormalized: -0.4
+    - rid: 2812920546288206029
+      type: {class: KillEffectConfig, ns: , asm: Assembly-CSharp}
+      data:
+        duration: 0
+        triggerInterval: 0
+        ceilThreshold_HealthRateNormalized: 0.2
+    - rid: 6546202350703345725
+      type: {class: DamageModifyEffectConfig, ns: , asm: Assembly-CSharp}
+      data:
+        duration: 6
+        triggerInterval: 0
+        increaseRateNormalized: 0.35
+    - rid: 6546202350703345726
+      type: {class: FireRateModifyEffectConfig, ns: , asm: Assembly-CSharp}
+      data:
+        duration: 6
+        triggerInterval: 0
+        increaseRateNormalized: 0.4
